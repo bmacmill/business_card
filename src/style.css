@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+
+.Container {
+  background-color: #23252C;
+  width: 550px;
+  margin: 0 auto;
+  padding: 30px 50px;
+}
+
+
+/* header styles */
+.Header {
+  min-width: 317px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1A1B21;
+}
+
+.Header > img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Header > h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.Header > h3{
+  font-weight: 400;
+  font-size: 0.75em;
+  color: #F3BF99;
+}
+
+.Header > p{
+  font-size: 0.625em;
+  margin: 0;
+  color: #F5F5F5;
+}
+
+/* main styles */
+
+.Main {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 10px 35px;
+  background-color: #1A1B21;
+  color: #DCDCDC;
+}
+
+
+.Main > button {
+  width: 100%;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  font-family: "Inter", sans-serif;
+  color: #1E1F26;
+  background-color: #D1D5DB;
+  border-radius: 0.5em;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+ 
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button > i {
+  padding-right: 0.5em;
+  margin-top: 0.35em;
+}
+
+.Main > h2, .Main > h3{
+  color: #F5F5F5;
+  font-weight: 700;
+}
+/* footer styles */
+
+.Footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 317px;
+  margin: 0 auto;
+  padding: 10px 35px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #161619;
+}
+
+.Footer > i {
+  font-size: 2rem;
+  color: #918E9B;
+  cursor: pointer;
+}
+
+i:hover{
+  color: #F3BF99;
+}
